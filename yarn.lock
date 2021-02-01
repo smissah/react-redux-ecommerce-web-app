@@ -1167,7 +1167,8 @@
   "version" "0.2.3"
 
 "@chec/commerce.js@^2.3.1":
-  "resolved" "git+ssh://git@github.com/chec/commerce.js.git#a0fa448415d4a8852134ce8436f5f826e224a53d"
+  "integrity" "sha512-bt0oMwDxXUJV7zXGJoNxBzrD6h021f4Cb0IBjLX43e++1HUa7ALsP/Z19c6JpPziy9UQOAehMyGiKVOFvKWE0w=="
+  "resolved" "https://registry.npmjs.org/@chec/commerce.js/-/commerce.js-2.3.1.tgz"
   "version" "2.3.1"
   dependencies:
     "axios" "^0.21.1"
