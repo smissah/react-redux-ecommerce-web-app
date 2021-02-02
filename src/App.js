@@ -14,12 +14,16 @@ const App = () => {
     //commerce.products.lists returns a promise which is then destructed
     setProducts(data);
   };
+  const fetchCart = async () => {
+    setCart(await commerce.cart.retrieve());
+  };
 
   useEffect(() => {
     fetchProducts();
+    fetchCart();
   }, []);
 
-  console.log(products);
+  console.log(cart);
   return (
     <div>
       <Nav />
